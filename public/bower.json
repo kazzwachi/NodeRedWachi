@@ -1,0 +1,21 @@
+{
+  "name": "node-red-bluemix",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "chart.js": "^2.3.0",
+    "moment": "^2.15.1",
+    "moment-timezone": "^0.5.5",
+    "bootstrap": "^3.3.7"
+  }
+}

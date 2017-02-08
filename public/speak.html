@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>喋る</title>
+    </head>
+    <body>
+        <div>
+            <button type="button" id="btnDoTalk">push!!</button>
+        </div>
+        <div>
+            <canvas id="voice"></canvas>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="js/voice.js"></script>
+        <script>
+        $(function(){
+            $('#btnDoTalk').click(thisPage.doTalk);
+        });
+        </script>
+    </body>
+</html>

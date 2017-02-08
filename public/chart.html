@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>温度湿度計</title>
+    </head>
+    <body>
+        <div>
+            <canvas id="chart_t1" class="chart"></canvas>
+        </div>
+        <div>
+            <canvas id="chart_h1" class="chart"></canvas>
+        </div>
+        <div>
+            <canvas id="chart_p1" class="chart"></canvas>
+        </div>
+        <div>
+            <canvas id="chart_t2" class="chart"></canvas>
+        </div>
+        <div>
+            <canvas id="chart_h2" class="chart"></canvas>
+        </div>
+        <div>
+            <canvas id="chart_p2" class="chart"></canvas>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/moment/min/moment-with-locales.min.js"></script>
+        <script src="bower_components/moment-timezone/moment-timezone.js"></script>
+        <script src="bower_components/chart.js/dist/Chart.min.js"></script>
+        <script src="js/chartPage.js"></script>
+        <script>
+        $(function(){
+            thisPage.readData();
+        });
+        </script>
+    </body>
+</html>
